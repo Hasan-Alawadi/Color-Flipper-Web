@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Definiert die Kodierung des Dokuments auf UTF-8 -->
+    <meta charset="UTF-8">
+    
+    <!-- Setzt die Ansicht auf die Breite des Geräts, um die Seite für mobile Geräte anzupassen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Definiert den Titel der Seite, der im Browser-Tab angezeigt wird -->
+    <title>Color Flipper</title>
+</head>
+<body>
+    <!-- Interner CSS-Block für die Gestaltung der Buttons und Farben -->
+    <style>
+        /* Definiert einen Button mit grüner Hintergrundfarbe */
+        #green {
+            background-color: green;
+        }
+
+        /* Definiert einen Button mit roter Hintergrundfarbe */
+        #red {
+            background-color: red;
+        }
+
+        /* Definiert einen Button mit blauer Hintergrundfarbe */
+        #blue {
+            background-color: blue;
+        }
+
+        /* Definiert einen Button mit gelber Hintergrundfarbe */
+        #yellow {
+            background-color: yellow;
+        }
+
+        /* Stile für alle Buttons: Rundung, Breite, Höhe und Abstände */
+        button {
+            border-radius: 5px; /* Rundet die Ecken des Buttons ab */
+            width: 100px;       /* Setzt die Breite des Buttons */
+            height: 40px;       /* Setzt die Höhe des Buttons */
+            margin: 5px;        /* Fügt Abstände um die Buttons hinzu */
+        }
+    </style>
+
+    <!-- Der Titel der Seite -->
+    <h3>Color Flipper</h3>
+
+    <!-- Buttons, um die Hintergrundfarbe zu ändern -->
+    <!-- Jeder Button hat eine eigene ID und ruft die Funktion setColor mit einer spezifischen Farbe auf -->
+    <button id="green" onclick="setColor('green')">Green</button>
+    <button id="red" onclick="setColor('red')">Red</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button id="yellow" onclick="setColor('yellow')">Yellow</button>
+
+    <!-- Ein zusätzlicher Button, der eine zufällige Farbe auswählt -->
+    <button onclick="randomColor()">Random</button>
+    
+    <!-- Externe JavaScript-Datei, die die Logik zur Farbänderung enthält -->
+    <script src="index.js"></script>
+</body>
+
+</html>
