@@ -1,9 +1,4 @@
-#Here's a README template for your "Color Flipper" project:
-
----
-
 # Color Flipper
-
 The **Color Flipper** is a simple web application that allows users to change the background color of the page by clicking on color buttons. It’s a lightweight and intuitive project aimed at beginners, providing a fun way to explore HTML, CSS, and JavaScript fundamentals.
 
 ## Features
@@ -43,10 +38,3 @@ Possible improvements could include:
 - Enabling custom color input.
 - Animating the background transition for a smoother effect.
 
-## License
-
-This project is open-source and free to use and modify under the MIT License.
-
----
-
-This README provides an overview, setup instructions, and a simple breakdown of the project structure and functionality. Adjust sections based on your project's specific needs or any additional features you may add!
